@@ -1,0 +1,16 @@
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\bin\Debug\FitnessGuruWPF2.exe.config
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\bin\Debug\FitnessGuruWPF2.exe
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\bin\Debug\FitnessGuruWPF2.pdb
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\MainWindow.g.cs
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\MemberInfo.g.cs
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\App.g.cs
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2_MarkupCompile.cache
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2_MarkupCompile.lref
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\MainWindow.baml
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\MemberInfo.baml
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2.g.resources
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2.Properties.Resources.resources
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2.csproj.GenerateResource.cache
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2.csproj.CoreCompileInputs.cache
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2.exe
+D:\Documents\School\2019Level5WinterTerm\DefaultWorkspace\FitnessGuruWPF2\FitnessGuruWPF2\obj\Debug\FitnessGuruWPF2.pdb
