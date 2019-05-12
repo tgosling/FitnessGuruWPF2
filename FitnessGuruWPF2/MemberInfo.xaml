@@ -18,18 +18,47 @@
             </MenuItem>
         </Menu>
         <Grid Background="#0F3663">
-            <StackPanel>
-                <Border CornerRadius="6" BorderBrush="White" BorderThickness="2" Margin="10,10,0,0" Width="200" HorizontalAlignment="Left">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Border CornerRadius="6" BorderBrush="White" BorderThickness="2" Margin="10,10,0,0" Width="300" HorizontalAlignment="Left">
                     <Label Content="{x:Static prop:Resources.lblMmbrInfo}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" HorizontalAlignment="Center"/>
                 </Border>
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                     <Label Content="{x:Static prop:Resources.lblUsrFName}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="15,0,0,0"/>
-                    <TextBox Text="" Width="180"/>
+                    <TextBox Text="" Width="200" x:Name="tbUsrFName"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                     <Label Content="{x:Static prop:Resources.lblUsrLName}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
-                    <TextBox Text="" Width="180"/>
+                    <TextBox Text="" Width="200" x:Name="tbUsrLName"/>
                 </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblUsrDOB}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
+                    <ComboBox x:Name="cmbDay" Width="60" Margin="-5,0,0,0"/>
+                    <ComboBox x:Name="cmbMonth" Width="60" Margin="5,0,0,0"/>
+                    <ComboBox x:Name="cmbYear" Width="60" Margin="5,0,0,0"/>
+                </StackPanel>
+                <Label Content="{x:Static prop:Resources.lblDMY}" Foreground="#CBA300" FontFamily="Verdana" FontSize="8" Margin="110,0,0,0" />
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblUsrAddr}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
+                    <TextBox Text="" Width="208" x:Name="tbUsrAddr" Margin="10,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblUsrCity}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
+                    <TextBox Text="" Width="208" x:Name="tbUsrCity" Margin="38,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblUsrPrv}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
+                    <ComboBox Width="50" x:Name="tbUsrPrv" Margin="6,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblUsrPstCd}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" FontSize="10" Margin="17,0,0,0"/>
+                    <TextBox Text="" Width="208" x:Name="tbUsrPstCd" Margin="0,0,0,0"/>
+                </StackPanel>
+                    <Label Content="{x:Static prop:Resources.lblUsrCmnts}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
+                    <TextBlock Text="" Width="283" Height="100" Background="White" x:Name="tbUsrCmnts" Margin="20,0,0,0" HorizontalAlignment="Left"/>
             </StackPanel>
         </Grid>
     </DockPanel>
