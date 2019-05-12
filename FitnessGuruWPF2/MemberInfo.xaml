@@ -3,10 +3,34 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prop="clr-namespace:FitnessGuruWPF2.Properties"
         xmlns:local="clr-namespace:FitnessGuruWPF2"
         mc:Ignorable="d"
         Title="MemberInfo" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Logout"/>
+                <MenuItem Header="_Exit"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About"/>
+            </MenuItem>
+        </Menu>
+        <Grid Background="#0F3663">
+            <StackPanel>
+                <Border CornerRadius="6" BorderBrush="White" BorderThickness="2" Margin="10,10,0,0" Width="200" HorizontalAlignment="Left">
+                    <Label Content="{x:Static prop:Resources.lblMmbrInfo}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" HorizontalAlignment="Center"/>
+                </Border>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="{x:Static prop:Resources.lblUsrFName}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="15,0,0,0"/>
+                    <TextBox Text="" Width="180"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblUsrLName}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
+                    <TextBox Text="" Width="180"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
 </Window>
