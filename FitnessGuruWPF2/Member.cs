@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace FitnessGuruWPF2
 {
-    class Person
+    class Member
     {
         public string usrName { get; set; }
         public string usrPsswrd { get; set; }
@@ -32,7 +32,7 @@ namespace FitnessGuruWPF2
         {
             return JsonConvert.SerializeObject(this);
         }
-        
+
         //Person Constructor when creating a new member
         public Person(string usrN, string passW)
         {
