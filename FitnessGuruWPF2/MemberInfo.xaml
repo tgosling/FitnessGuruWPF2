@@ -6,7 +6,7 @@
         xmlns:prop="clr-namespace:FitnessGuruWPF2.Properties"
         xmlns:local="clr-namespace:FitnessGuruWPF2"
         mc:Ignorable="d"
-        Title="MemberInfo" Height="450" Width="650">
+        Title="MemberInfo" Height="450" Width="630">
     <DockPanel LastChildFill="True">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -68,6 +68,26 @@
                     <Label Content="{x:Static prop:Resources.lblTrain}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="15,0,0,0"/>
                     <TextBox Text="" Width="200" x:Name="tbUsrTrain"/>
                 </StackPanel>
+                <WrapPanel Margin="10,0,0,0">
+                    <StackPanel Width="150">
+                        <Label Content="{x:Static prop:Resources.lblProgLvl}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="10,0,0,0"/>
+                        <RadioButton Content="{x:Static prop:Resources.lblBeg}" Foreground="#CBA300" FontFamily="Verdana" Margin="20,0,0,0"/>
+                        <RadioButton Content="{x:Static prop:Resources.lblExp}" Foreground="#CBA300" FontFamily="Verdana" Margin="20,0,0,0"/>
+                        <RadioButton Content="{x:Static prop:Resources.lblHiP}" Foreground="#CBA300" FontFamily="Verdana" Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="{x:Static prop:Resources.lblBillInfo}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="15,0,0,0"/>
+                        <CheckBox Content="{x:Static prop:Resources.lblBankAccDD}" Foreground="#CBA300" FontFamily="Verdana"  Margin="20,0,0,0"/>
+                        <RadioButton Content="{x:Static prop:Resources.lblMthly}" Foreground="#CBA300" FontFamily="Verdana"  Margin="20,0,0,0"/>
+                        <RadioButton Content="{x:Static prop:Resources.lblAnnMemC}" Foreground="#CBA300" FontFamily="Verdana"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                </WrapPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                    <Button Content="{x:Static prop:Resources.btnProc}" Width="60" />
+                    <Button Content="{x:Static prop:Resources.btnCanc}" Width="60" Margin="20,0,0,0" />
+                </StackPanel>
+                <Image Name="FitnessGuruLogo" Source="guruTwo.jpg" HorizontalAlignment="Center" Width="125" Height="125" Margin="10,20,0,0" />
+
             </StackPanel>
         </Grid>
     </DockPanel>
