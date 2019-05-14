@@ -6,7 +6,9 @@
         xmlns:prop="clr-namespace:FitnessGuruWPF2.Properties"
         xmlns:local="clr-namespace:FitnessGuruWPF2"
         mc:Ignorable="d"
-        Title="MemberInfo" Height="450" Width="630">
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="MemberInfo" Height="450" Width="645">
     <DockPanel LastChildFill="True">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
