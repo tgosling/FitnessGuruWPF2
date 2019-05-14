@@ -6,7 +6,7 @@
         xmlns:prop="clr-namespace:FitnessGuruWPF2.Properties"
         xmlns:local="clr-namespace:FitnessGuruWPF2"
         mc:Ignorable="d"
-        Title="MemberInfo" Height="450" Width="800">
+        Title="MemberInfo" Height="450" Width="650">
     <DockPanel LastChildFill="True">
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -59,6 +59,15 @@
                 </StackPanel>
                     <Label Content="{x:Static prop:Resources.lblUsrCmnts}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
                     <TextBlock Text="" Width="283" Height="100" Background="White" x:Name="tbUsrCmnts" Margin="20,0,0,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Border CornerRadius="6" BorderBrush="White" BorderThickness="2" Margin="10,10,0,0" Width="300" HorizontalAlignment="Left">
+                    <Label Content="{x:Static prop:Resources.lblFitProg}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" HorizontalAlignment="Center"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Label Content="{x:Static prop:Resources.lblTrain}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="15,0,0,0"/>
+                    <TextBox Text="" Width="200" x:Name="tbUsrTrain"/>
+                </StackPanel>
             </StackPanel>
         </Grid>
     </DockPanel>
