@@ -40,8 +40,7 @@ namespace FitnessGuruWPF2
             this.usrPsswrd = passW;
         }
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> LoginWindow
+
+

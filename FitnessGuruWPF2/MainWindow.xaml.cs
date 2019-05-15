@@ -26,7 +26,8 @@ namespace FitnessGuruWPF2
 
         private void btnAddUser_Click(object sender, RoutedEventArgs e)
         {
-
+            App.Current.registerUser(tbUsrNmLogin.Text, tbUsrPsWrdLogin.Text);
+            App.Current.memberInfo.ShowDialog();
         }
 
     }
