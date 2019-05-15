@@ -38,15 +38,11 @@ namespace FitnessGuruWPF2
         public bool checkLogin(string usrN, string pssW)
         {
             int count = 0;
-<<<<<<< HEAD
-            foreach(Member hold in memberList)
-            {
-                if(hold.usrName == usrN && hold.usrPsswrd == pssW)
-=======
+
             foreach (Member hold in memberList)
             {
                 if (hold.usrName == usrN && hold.usrPsswrd == pssW)
->>>>>>> LoginWindow
+
                 {
                     loggedInUser = count;
                     return true;
@@ -60,11 +56,8 @@ namespace FitnessGuruWPF2
         public void saveUsers()
         {
             string fileStr = "[\n";
-<<<<<<< HEAD
-            foreach(Member hold in memberList)
-=======
+
             foreach (Member hold in memberList)
->>>>>>> LoginWindow
             {
                 fileStr += hold.ToString() + ",\n";
             }
@@ -80,21 +73,15 @@ namespace FitnessGuruWPF2
         {
             try
             {
-<<<<<<< HEAD
-                if(File.Exists("users.json"))
-=======
-                if (File.Exists("users.json"))
->>>>>>> LoginWindow
+       if (File.Exists("users.json"))
+
                 {
                     string jsonStr = File.ReadAllText("users.json");
                     memberList = JsonConvert.DeserializeObject<List<Member>>(jsonStr);
                 }
             }
-<<<<<<< HEAD
-            catch(Exception e)
-=======
+
             catch (Exception e)
->>>>>>> LoginWindow
             {
                 MessageBox.Show(e.ToString());
             }
