@@ -53,7 +53,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                     <Label Content="{x:Static prop:Resources.lblUsrPrv}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" Margin="17,0,0,0"/>
-                    <ComboBox Width="50" x:Name="tbUsrPrv" Margin="6,0,0,0"/>
+                    <ComboBox Width="50" x:Name="cmbUsrPrv" Margin="6,0,0,0"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                     <Label Content="{x:Static prop:Resources.lblUsrPstCd}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold" FontSize="10" Margin="17,0,0,0"/>
