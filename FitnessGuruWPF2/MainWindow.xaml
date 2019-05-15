@@ -1,0 +1,29 @@
+﻿<Window x:Class="FitnessGuruWPF2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FitnessGuruWPF2"
+        xmlns:prop="clr-namespace:FitnessGuruWPF2.Properties"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="365" Width="420">
+    <Grid Background="#0F3663">
+        <StackPanel>
+            <Image Name="FitnessGuruLogo" Source="guruTwo.jpg" HorizontalAlignment="Center" Width="200" Height="200" Margin="10" />
+            <StackPanel Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Content="{x:Static prop:Resources.lblUsrNmEntry}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold"/>
+                <TextBox Text="" x:Name="tbUsrNmLogin" Width="300" Margin="10,0,0,0" MaxLength="50"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5,5,0,0">
+                <Label Content="{x:Static prop:Resources.lblPswrdEntry}" Foreground="#CBA300" FontFamily="Verdana" FontWeight="Bold"/>
+                <TextBox Text="" x:Name="tbUsrPsWrdLogin" Width="300" Margin="12,0,0,0" MaxLength="50"/>
+            </StackPanel>
+            <WrapPanel Margin="0,10,0,0">
+                <Button Content="{x:Static prop:Resources.btnLogin}" Click="btnLogin_Click"  Width="50" Margin="98,0,0,0"/>
+                <Button Content="{x:Static prop:Resources.btnAddUser}" Width="125" Margin="5,0,0,0"/>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>
