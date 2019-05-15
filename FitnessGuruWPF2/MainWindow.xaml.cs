@@ -26,7 +26,9 @@ namespace FitnessGuruWPF2
 
         private void btnAddUser_Click(object sender, RoutedEventArgs e)
         {
-
+            //Add if to check if user already exists
+            App.Current.registerUser(tbUsrNmLogin.Text, tbUsrPsWrdLogin.Text);
+            App.Current.memberInfo.ShowDialog();
         }
 
     }
